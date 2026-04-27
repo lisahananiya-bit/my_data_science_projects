@@ -1,4 +1,4 @@
-# 🌍 Access to Basic Services: A Global Data Analysis
+# Access to Basic Services: A Global Data Analysis
 
 > *Uncovering what actually drives access to clean water and sanitation across 182 countries — and what the data challenges us to rethink.*
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project is an end-to-end exploratory data analysis of global access to managed drinking water and sanitation services, framed around the **UN Sustainable Development Goal 6 (SDG 6)** — Clean Water and Sanitation for All.
 
@@ -17,7 +17,7 @@ Using country-level data spanning **2015–2020** across **182 countries**, this
 
 ---
 
-## 🔍 The Five Analytical Questions
+## The Five Analytical Questions
 
 | # | Question | Method |
 |---|---|---|
@@ -29,7 +29,7 @@ Using country-level data spanning **2015–2020** across **182 countries**, this
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
 **1 — GDP explains most, but not all.**
 Log GDP per capita accounts for **58.4% of variance** in water access and **61.3%** in sanitation (Pearson r > 0.76, p < 0.001 in both cases). The remaining 39–42% is where governance, policy, and infrastructure history override economics — and that is where this analysis gets interesting.
@@ -44,12 +44,12 @@ This is the counterintuitive null result: r = 0.005 for water access (p = 0.92).
 Density correlates with water access at r = 0.21 (p < 0.0001) — real, but explaining only ~4% of variance. Density alone is not a meaningful predictor of service delivery.
 
 **5 — The outliers tell the most important story.**
-- 🔴 **Equatorial Guinea** (GDP/capita: $8,409) has only 58% water access — 34 percentage points below what its wealth predicts. A textbook case of the resource curse.
-- 🟢 **Syrian Arab Republic** (GDP/capita: $533) achieves 93.7% water access — 24 points above prediction — reflecting pre-conflict public infrastructure that outlasted economic collapse.
+- **Equatorial Guinea** (GDP/capita: $8,409) has only 58% water access — 34 percentage points below what its wealth predicts. A textbook case of the resource curse.
+- **Syrian Arab Republic** (GDP/capita: $533) achieves 93.7% water access — 24 points above prediction — reflecting pre-conflict public infrastructure that outlasted economic collapse.
 
 ---
 
-## 📊 Visualisations
+## Visualisations
 
 ### Distribution of Key Variables
 ![Fig 1 — Distributions](fig1_distributions.png)
@@ -65,10 +65,11 @@ Density correlates with water access at r = 0.21 (p < 0.0001) — real, but expl
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── Project_1_access_to_basic_services.ipynb   # Full analysis notebook
+└── README.md
 ├── access_to_basic_services.csv               # Raw dataset
 ├── fig1_distributions.png
 ├── fig2_gdp_vs_services.png
@@ -76,14 +77,11 @@ Density correlates with water access at r = 0.21 (p < 0.0001) — real, but expl
 ├── fig4_unemployment_vs_services.png
 ├── fig5_density_vs_services.png
 ├── fig6_outliers.png
-└── README.md
 ```
 
 ---
 
-## 🗂️ Notebook Structure
-
-The analysis follows a professional, reproducible workflow:
+## notebook Structure
 
 ```
 1. Import Libraries & Load Data
@@ -113,7 +111,7 @@ The analysis follows a professional, reproducible workflow:
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 | Library | Purpose |
 |---|---|
@@ -125,7 +123,7 @@ The analysis follows a professional, reproducible workflow:
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 | Detail | Description |
 |---|---|
@@ -140,42 +138,19 @@ The unemployment variable (`Pct_unemployment`) contains data for only **38.6% of
 
 ---
 
-## 🚀 How to Run
+## Author
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/your-username/access-to-basic-services.git
-cd access-to-basic-services
-```
+**Lisa N. Hananiya** Data Scientist | Python | SQL | Power Bi | Storytelling with Data
 
-**2. Install dependencies**
-```bash
-pip install pandas numpy matplotlib seaborn scipy jupyter
-```
-
-**3. Launch the notebook**
-```bash
-jupyter notebook Project_1_access_to_basic_services.ipynb
-```
-
-Run all cells from top to bottom. Charts are saved automatically to the project directory.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](https://linkedin.com/in/lisa-hananiya-bba15234a)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/lisahananiya-bit)
 
 ---
 
-## 👩‍💻 Author
-
-**Lisa N. Hananiya**
-Aspiring Data Scientist | Python | Pandas | SQL | Storytelling with Data
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/your-username)
-
----
-
-## 📄 License
+## License
 
 This project is open source under the [MIT License](LICENSE).
 
 ---
 
-*If this analysis was useful or interesting, please consider leaving a ⭐ on the repository.*
+*If this analysis was useful or interesting, please consider leaving a ⭐ on the repository. Thank you.*
